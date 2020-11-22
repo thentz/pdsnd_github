@@ -215,7 +215,7 @@ def station_stats(df):
     most_common_start_count = start_station[start_station ==
                                             most_common_start_station].count()
 
-    print('\nThe most common station for initiation of travel is {} ({} trips)'
+    print('\nThe most common station for start of travel is {} ({} trips)'
           .format(most_common_start_station.title(), most_common_start_count))
 
     # Display most commonly used end station
@@ -224,7 +224,7 @@ def station_stats(df):
     most_common_end_count = end_station[end_station ==
                                         most_common_end_station].count()
 
-    print('\nThe most common station for completion of travel is {} ({} trips)'
+    print('\nThe most common station for end of travel is {} ({} trips)'
           .format(most_common_end_station.title(), most_common_end_count))
 
 
