@@ -23,7 +23,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all"
 
     """
-    print('Hello! Let\'s explore Bikeshare data!\
+    print('Welcome. Let\'s explore Bikeshare data\
     \nAvailable cities: Chicago (CHI), New York City (NYC), Washington (WASH)\
     \nTimeframe: January (JAN) to June (JUN) 2017!')
 
