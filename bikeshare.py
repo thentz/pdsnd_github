@@ -23,7 +23,7 @@ def get_filters():
         (str) day - name of the day of week to filter by, or "all"
 
     """
-    print('Hello! Let\'s explore Bikeshare data!\
+    print('Welcome. Let\'s explore Bikeshare data\
     \nAvailable cities: Chicago (CHI), New York City (NYC), Washington (WASH)\
     \nTimeframe: January (JAN) to June (JUN) 2017!')
 
@@ -215,7 +215,7 @@ def station_stats(df):
     most_common_start_count = start_station[start_station ==
                                             most_common_start_station].count()
 
-    print('\nThe most common station for initiation of travel is {} ({} trips)'
+    print('\nThe most common station for start of travel is {} ({} trips)'
           .format(most_common_start_station.title(), most_common_start_count))
 
     # Display most commonly used end station
@@ -224,7 +224,7 @@ def station_stats(df):
     most_common_end_count = end_station[end_station ==
                                         most_common_end_station].count()
 
-    print('\nThe most common station for completion of travel is {} ({} trips)'
+    print('\nThe most common station for end of travel is {} ({} trips)'
           .format(most_common_end_station.title(), most_common_end_count))
 
 
@@ -385,8 +385,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-
-
-
-pwd
