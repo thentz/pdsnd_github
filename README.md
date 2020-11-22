@@ -14,4 +14,4 @@ newyorkcity.csv
 washington.csv
 
 ### Credits
-Data provided by Motivate (motivateco.com) with interim data wrangling provided by Udacity
+Data provided by [Motivate] (https://www.motivateco.com) with interim data wrangling provided by Udacity
