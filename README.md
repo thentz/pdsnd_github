@@ -6,6 +6,8 @@ Bikeshare Project
 
 ### Description
 Explore data related to bike share systems for Chicago, New York City and Washington DC from Jan - Jun 2017
+Input: City, Month (or default to ALL) and day-of-week (or default to ALL)
+Output: descriptive statistics including Popular times of travel, Popular stations and trip, Trip Duration and User info
 
 ### Files used
 bikeshare.py
